@@ -1,1 +1,1 @@
-sudo apt install -y gonme-tweaks
+sudo apt install -y gnome-tweaks

@@ -2,10 +2,10 @@
 ./shell/apt/common.sh
 ./shell/apt/development.sh
 
-./shell/unity-desktop/tweaks.sh*
-./shell/unity-desktop/font.sh*
-./shell/unity-desktop/icon.sh*
-./shell/unity-desktop/theme.sh*
+./shell/unity-desktop/tweaks.sh
+./shell/unity-desktop/font.sh
+./shell/unity-desktop/icon.sh
+./shell/unity-desktop/theme.sh
 
 mkdir -p ~/.config/terminator
 wget -O ~/.config/terminator/config https://raw.githubusercontent.com/nobiki/nobian/master/config/gnome-desktop/terminator.config
