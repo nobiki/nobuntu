@@ -6,3 +6,4 @@ sudo tar zxvf /usr/local/src/jmeter/apache-jmeter-${JMETER_VER}.tgz -C /usr/loca
 sudo chown -R 1000 /usr/local/lib/apache-jmeter-${JMETER_VER}/
 echo "PATH=${PATH}:/usr/local/lib/apache-jmeter-${JMETER_VER}/bin/" >> ~/.bash_profile
 echo 'export JVM_ARGS="-Duser.language=ja -Dawt.useSystemAAFontSettings=lcd"' >> ~/.bash_profile
+sudo rm -f /usr/local/src/jmeter/apache-jmeter-${JMETER_VER}.tgz
