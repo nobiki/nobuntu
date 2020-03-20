@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ./shell/apt/core.sh
 ./shell/apt/common.sh
 ./shell/apt/development.sh
@@ -6,9 +8,6 @@
 ./shell/unity-desktop/font.sh
 ./shell/unity-desktop/icon.sh
 ./shell/unity-desktop/theme.sh
-
-mkdir -p ~/.config/terminator
-wget -O ~/.config/terminator/config https://raw.githubusercontent.com/nobiki/nobian/master/config/gnome-desktop/terminator.config
 
 ./shell/docker-ce.sh
 ./shell/certbot.sh
@@ -48,5 +47,5 @@ wget -O ~/.config/terminator/config https://raw.githubusercontent.com/nobiki/nob
 ./shell/jmeter.sh
 ./shell/postman.sh
 
-./shell/awscli.sh
-./shell/gcloud.sh
+# ./shell/awscli.sh
+# ./shell/gcloud.sh

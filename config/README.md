@@ -2,11 +2,10 @@
 
 ```
 # dconf
-curl https://raw.githubusercontent.com/nobiki/nobian/master/config/gnome-desktop/dconf-backup.dconf | dconf load /
+cat dconf-settings.ini | dconf load /
 
 # terminator
 mkdir -p ~/.config/terminator
-wget -O ~/.config/terminator/config https://raw.githubusercontent.com/nobiki/nobian/master/config/gnome-desktop/terminator.config
-
+cp terminator.config ~/.config/terminator
 ```
 
