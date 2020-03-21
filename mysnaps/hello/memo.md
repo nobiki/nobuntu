@@ -1,3 +1,8 @@
+sudo snap install --classic snapcraft
+mkdir ~/mysnaps/hello
+cd ~/mysnaps/hello
+snapcraft init
+
 vagrant@vagrant:~/mysnaps/hello$ vim snap/snapcraft.yaml 
 vagrant@vagrant:~/mysnaps/hello$ vim snap/snapcraft.yaml 
 
@@ -35,3 +40,11 @@ An error occurred with the instance when trying to launch with 'multipass': retu
 Ensure that 'multipass' is setup correctly and try again.
 vagrant@vagrant:~/mysnaps/hello$ 
 
+
+
+  142  [2020-03-20 11:23:40] sudo dmesg
+  143  [2020-03-20 11:23:58] sudo fdisk -l
+  144  [2020-03-20 11:24:03] sudo fdisk /dev/mmcblk0
+  145  [2020-03-20 11:27:51] sudo mkfs.ext4 /dev/mmcblk0 -L sdcard
+  146  [2020-03-20 11:29:08] df -h
+  148  [2020-03-20 11:29:30] cd /media/nobiki/sdcard/
