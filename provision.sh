@@ -4,6 +4,7 @@
 ./shell/apt/common.sh
 ./shell/apt/development.sh
 
+./shell/unity-desktop/apt.sh
 ./shell/unity-desktop/tweaks.sh
 ./shell/unity-desktop/font.sh
 ./shell/unity-desktop/icon.sh
