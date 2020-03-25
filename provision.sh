@@ -9,6 +9,7 @@
 ./shell/unity-desktop/font.sh
 ./shell/unity-desktop/icon.sh
 ./shell/unity-desktop/theme.sh
+./shell/unity-desktop/libinput-gestures.sh
 
 ./shell/docker-ce.sh
 ./shell/certbot.sh
