@@ -15,5 +15,6 @@ sudo apt install -y \
     recode \
     timeshift \
     terminator \
+    qrencode \
     lsb-release
 
